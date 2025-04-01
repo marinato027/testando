@@ -1,0 +1,56 @@
+#nome {
+    text-align: center;
+    color: rgb(0, 17, 255);
+}
+
+
+#foto {
+    text-align: center;
+}
+
+
+.titulo {
+    background-color: rgb(210, 241, 234);
+    padding: 5px;
+    transition: background-color 1.5s;
+}
+
+.titulo:hover {
+    background-color: rgb(0, 153, 255);
+}
+
+
+p {
+    font-family: Verdana, sans-serif;
+}
+
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+
+.info {
+    background-color: rgb(210, 241, 234);
+    padding: 5px;
+}
+
+
+.minhadiv {
+    border: 2px dashed black;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.letra {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.linha {
+    display: flex;
+}
