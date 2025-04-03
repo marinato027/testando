@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+body {
+    background-color: #2C2F33; 
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.container {
+    background-color: #23272A; 
+    max-width: 960px;
+    width: 90%; 
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+section img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+}
+
+
+a {
+    color: rgb(89, 0, 255);
+    text-decoration: none; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+
+a:hover {
+    color: #ffffff; 
+}
+
+
+
+header, footer {
+    background-color: #0066ff; 
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #ebebeb; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    text-decoration: none; 
+    color: #00FFFF; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    color: #ffffff; 
+}
+
+
+section {
+    padding: 20px;
+    max-width: 960px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #0066ff;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    background-color: #2C2F33;
+    color: #ffffff;
+}
+
+
+td img {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.2);
+}
+
+
+tbody tr:hover td {
+    background-color: #0084ff; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.review {
+    background-color: #2C2F33;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.review h3 {
+    color: #ffffff;
+}
+
+.review p {
+    font-size: 16px;
+}
+
+
+.review:hover {
+    background-color: #444;
+    transition: background-color 0.3s ease;
+}
+
+
+form {
+    background-color: #2C2F33;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #FFD700; 
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #004bb5;
+}
+
+
